@@ -1,0 +1,450 @@
+
+
+section.outer-block-blog{
+	.inners{
+
+		.tops{
+			h1{
+				font-style: normal;
+				font-weight: bold;
+				font-size: 32px;
+				line-height: 40px;
+				/* identical to box height */
+
+				text-align: center;
+
+				color: rgba(51, 51, 51, 0.92);
+			}
+		}
+		.featured-blog{
+			.box-slide{
+				position: relative;
+				overflow: hidden;
+				.carousel{
+					.carousel-item{
+						.carousel-caption{
+							position: absolute;
+							bottom: 0px; left: 0px;
+							z-index: 10;
+							height: 100%; width: 100%;
+							background-color: rgba(0,0,0, 0.2);
+							padding: 1.5rem;
+							.title-info{
+								h3{
+									font-style: normal;
+									font-weight: 600;
+									font-size: 32px;
+									line-height: 38px;
+
+									color: #FFFFFF;
+									padding-bottom: 1rem;
+									position: relative;
+									max-width: 420px;
+									text-align: left;
+								}
+
+								.lines{
+									background-color: #fff;
+									height: 2px;
+									width: 46px;
+									z-index: 22;
+								}
+
+								position: absolute;
+								bottom: 1.5rem;
+								left: 1.5rem;
+							}
+							.type-bg{
+								width: 77px;
+								height: 33px;
+
+								background: #04212C;
+
+								vertical-align: middle;
+								border-radius: 1px;
+
+								display: flex;
+								align-items: center;
+								text-align: center;
+								justify-content: center;
+								vertical-align: middle;
+
+								position: absolute;
+								top: 1.5rem;
+								left: 1.5rem;
+								span{
+									font-style: normal;
+									font-weight: 600;
+									font-size: 14px;
+									line-height: 17px;
+									/* identical to box height */
+
+									display: flex;
+									align-items: center;
+									text-align: center;
+									justify-content: center;
+									vertical-align: middle;
+									color: #FFFFFF;
+									margin: 0;
+									line-height: 1;
+								}
+							}
+							.date-bg{
+								position: absolute;
+								top: 1.5rem;
+								right: 1.5rem;
+								span{
+									font-style: normal;
+									font-weight: 500;
+									font-size: 14px;
+									line-height: 16px;
+									text-align: right;
+
+									color: #FFFFFF;
+								}
+							}
+						}
+					}
+					.carousel-indicators{
+						z-index: 15;
+						text-align: right;
+						margin-right: 0px;
+						margin-left: 0px;
+						left: inherit;
+						right: 1.5rem;
+						li{
+							width: 8px;
+							height: 8px;
+							border-radius: 50%;
+						}
+						li:hover,
+						li:focus,
+						li.active{
+							width: 8px;
+							height: 8px;
+							border-radius: 50%;
+						}
+					}
+				}
+			}
+			.right-newsletter{
+				h4{
+
+				}
+				a.small_more{
+					font-style: normal;
+					font-weight: 600;
+					font-size: 18px;
+					line-height: 132%;
+					/* identical to box height, or 24px */
+
+					display: flex;
+					align-items: center;
+
+					/* primary/blue primary */
+
+					color: #2C45C8;
+					text-decoration: none;
+				}
+				a.small_more:hover,
+				a.small_more:focus{
+					text-decoration: none;
+					color: #1734C9;
+				}
+
+				.lists_dn_newsletter{
+
+					.nlist{
+						span.month{
+							display: block; margin: 0;
+							font-style: normal;
+							font-weight: bold;
+							font-size: 24px;
+							line-height: 132%;
+							/* identical to box height, or 32px */
+
+							display: flex;
+							align-items: center;
+							text-transform: uppercase;
+
+							color: #333333;
+						}
+						.rights_info{
+							text-align: left;
+							h5{
+								font-style: normal;
+								font-weight: 600;
+								font-size: 18px;
+								line-height: 21px;
+								display: flex;
+								align-items: center;
+
+								color: #333333;
+								display: block;
+								margin: 0;
+								margin-bottom: 0.4rem;
+							}
+							p{
+								font-style: normal;
+								font-weight: normal;
+								font-size: 15px;
+								line-height: 152%;
+								/* or 23px */
+
+								display: flex;
+								align-items: center;
+
+								color: #333333;
+
+								opacity: 0.92;
+								display: block;
+								margin: 0;
+							}
+						}
+						padding-bottom: 1.2rem;
+						margin-bottom: 1.2rem;
+						border-bottom: 1px solid #333;
+						clear: both;
+					}
+				}
+			}
+		}
+
+		.others-blog-list{
+			.list-default-blog{
+				.box-item{
+					.picture{
+						img{
+							width: 100%;
+						}
+					}
+					.info{
+						.topns{
+							.dark-blue{
+								display: flex;
+								flex-direction: row;
+								padding: 4px 12px;
+								width: 53px; height: 24px;
+								// position: absolute;
+
+								background: #04212C;
+								border-radius: 1px;
+							}
+							span.types{
+								font-style: normal;
+								font-weight: 500;
+								font-size: 12px;
+								line-height: 16px;
+								display: flex;
+								align-items: center;
+								text-align: center;
+
+								color: #FFFFFF;
+
+
+								/* Inside Auto Layout */
+
+								flex: none;
+								order: 0;
+								align-self: center;
+								margin: 10px 0px;
+							}
+							span.dates{
+								display: block;
+								text-align: right;
+								font-style: normal;
+								font-weight: 500;
+								font-size: 14px;
+								line-height: 16px;
+								text-align: right;
+
+								color: #000000;
+								opacity: 0.5;
+							}
+						}
+						.title-blog{
+							h4{
+								display: block;
+								margin: 0;
+								font-style: normal;
+								font-weight: 600;
+								font-size: 19px;
+								line-height: 23px;
+								/* identical to box height */
+
+								color: #333333;
+							}
+							a:hover,
+							a:focus{
+								text-decoration: none;
+								color: #333333;
+							}
+						}
+						.lines-ngrey{
+							width: 46px;
+							height: 1px;
+
+							opacity: 0.12;
+							border: 2px solid #333333;
+						}
+						clear: both;
+					}
+					background-color: #fff;
+					box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 4px 8px rgba(0, 0, 0, 0.04);
+					border-radius: 1px;
+					margin-bottom: 2rem;
+				}
+				clear: both;
+			}
+
+			a.btn-md-more{
+				padding: 1rem 6rem;
+
+				background: rgba(44, 69, 200, 0.12);
+				border: 1px solid rgba(44, 69, 200, 0.5);
+				box-sizing: border-box;
+				border-radius: 1px;
+
+				font-style: normal;
+				font-weight: 600;
+				font-size: 15px;
+				line-height: 18px;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				justify-content: center; text-align: center;
+
+				max-width: 172px;
+				margin: 0 auto;
+
+				color: #2C45C8;
+			}
+			a.btn-md-more:hover,
+			a.btn-md-more:focus{
+				text-decoration: none;
+				color: #142FBB;
+				background: rgba(44, 69, 200, 0.25);
+			}
+			clear: both;
+		}
+
+		clear: both;
+	}
+}
+
+.boxed-blog-detail{
+	.tops{
+		h1{
+			font-style: normal;
+			font-weight: bold;
+			font-size: 32px;
+			line-height: 40px;
+			text-align: center;
+
+			color: rgba(51, 51, 51, 0.92);
+		}
+		span.dates{
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 132%;
+			/* or 21px */
+
+			text-align: center;
+
+			color: rgba(51, 51, 51, 0.92);
+		}
+		max-width: 565px;
+		margin: 0 auto;
+		clear: both;
+	}
+
+	.contents{
+		max-width: 765px;
+		margin: 0 auto;
+
+		h1, h2, h3, h4, h5{
+			font-style: normal;
+			font-weight: bold;
+			font-size: 24px;
+			line-height: 32px;
+			/* identical to box height, or 133% */
+
+
+			color: #333333;
+		}
+		h1{
+			font-size: 30px;
+		}
+		h2{
+			font-size: 26px;
+		}
+		h3{
+			font-size: 24px;
+		}
+		h4{
+			font-size: 22px;
+		}
+		h5{
+			font-size: 19px;
+		}
+
+		p{
+			font-style: normal;
+			font-weight: normal;
+			font-size: 15px;
+			line-height: 24px;
+			/* or 160% */
+			color: #333333;
+			margin-bottom: 1.5rem;
+		}
+
+		ol {
+		  counter-reset: myOrderedListItemsCounter;
+		}
+		ol li {
+		  list-style-type: none;
+		  position: relative;
+		}
+		ol li:before {
+		  counter-increment: myOrderedListItemsCounter;
+		  content: counter(myOrderedListItemsCounter)".";
+		  margin-right: .5em;
+		  margin-bottom: 0.7rem;
+		}
+		ol li::before {
+		  background-color: #44c4f4;
+		  padding: 0.3rem 0.6rem;
+		  color: #fff;
+		}
+
+		ul,
+		ol{
+			margin-bottom: 2rem;
+			padding: 0;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 15px;
+			line-height: 24px;
+			color: #fff;
+
+			li{
+				margin: 1rem 0;
+
+				display: block;
+
+				font-style: normal;
+				font-weight: normal;
+				font-size: 15px;
+				line-height: 24px;
+				color: #333333;
+			}
+		}
+		clear: both;
+
+	}
+
+
+	clear: both;
+}
+
