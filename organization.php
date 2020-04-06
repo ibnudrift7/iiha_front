@@ -16,6 +16,7 @@
     <!-- Custom styles for this template -->
     <link href="asset/css/newsletter.css" rel="stylesheet">
     <link href="asset/css/organization.css" rel="stylesheet">
+    <link href="asset/css/member.css" rel="stylesheet">
 </head>
 <body>
 

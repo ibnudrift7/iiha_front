@@ -18,175 +18,176 @@
     <link href="asset/css/blog.css" rel="stylesheet">
 </head>
 <body>
-
 	<!-- start blog	 -->
 	<section class="outer-block-blog py-5">
-	<div class="prelatife container">
-		<div class="inners">	
+    	<div class="prelatife container">
+    		<div class="inners">	
 
-				<div class="tops text-center">
-					<h1>IIHA Updates</h1>
-					<div class="py-3"></div>
-                    <div class="featured-blog">
-                        <div class="row ">
-                            <div class="col-md-9">
-                                <div class="box-slide prelatife">
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                        <ol class="carousel-indicators">
-                                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                        </ol>
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <img class="d-block w-100" src="https://i.ibb.co/VpjhdMP/rectang-big.jpg" alt="First slide">
-                                                <div class="carousel-caption">
-                                                    <div class="type-bg">
-                                                        <span>Blog</span>
+    				<div class="tops text-center">
+    					<h1>IIHA Updates</h1>
+    					<div class="py-3"></div>
+                        <div class="featured-blog">
+                            <div class="row ">
+                                <div class="col-md-9">
+                                    <div class="box-slide prelatife">
+                                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                            </ol>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img class="d-block w-100" src="https://i.ibb.co/VpjhdMP/rectang-big.jpg" alt="First slide">
+                                                    <div class="carousel-caption">
+                                                        <div class="type-bg">
+                                                            <span>Blog</span>
+                                                        </div>
+                                                        <div class="date-bg">
+                                                            <span>22 April 2020</span>
+                                                        </div>
+                                                        <div class="title-info">
+                                                            <h3>Workplace Hygiene in Sketch</h3>
+                                                            <div class="lines"></div>
+                                                        </div>
                                                     </div>
-                                                    <div class="date-bg">
-                                                        <span>22 April 2020</span>
-                                                    </div>
-                                                    <div class="title-info">
-                                                        <h3>Workplace Hygiene in Sketch</h3>
-                                                        <div class="lines"></div>
-                                                    </div>
+
                                                 </div>
-
                                             </div>
+                                            
                                         </div>
-                                        
                                     </div>
-                                </div>
 
-                                <div class="py-4 my-3"></div>
+                                    <div class="py-4 my-3 d-none d-sm-block"></div>
+                                    <div class="py-3 my-1 d-block d-sm-none"></div>
 
-                                <!-- start other -->
-                                  <div class="others-blog-list">
-                                    <div class="list-default-blog">
-                                        <div class="row">
-                                            <?php for ($i=0; $i < 7; $i++) { ?>
-                                            <div class="col-md-6">
-                                                <div class="box-item">
-                                                    <div class="picture">
-                                                        <a href="#">
-                                                        <img src="https://i.ibb.co/2WG4jz6/Rectangle-75.jpg" alt="" 
-                                                        class="img img-fluid">
-                                                        </a>
-                                                    </div>
-                                                    <div class="info p-4">
-                                                        <div class="topns">
-                                                            <div class="row">
-                                                                <div class="col">
-                                                                    <div class="dark-blue">
-                                                                        <span class="types">Blog</span>
+                                    <!-- start other -->
+                                      <div class="others-blog-list">
+                                        <div class="list-default-blog">
+                                            <div class="row">
+                                                <?php for ($i=0; $i < 7; $i++) { ?>
+                                                <div class="col-md-6">
+                                                    <div class="box-item">
+                                                        <div class="picture">
+                                                            <a href="#">
+                                                            <img src="https://i.ibb.co/2WG4jz6/Rectangle-75.jpg" alt="" 
+                                                            class="img img-fluid">
+                                                            </a>
+                                                        </div>
+                                                        <div class="info p-4">
+                                                            <div class="topns">
+                                                                <div class="row">
+                                                                    <div class="col">
+                                                                        <div class="dark-blue">
+                                                                            <span class="types">Blog</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col">
+                                                                        <span class="dates">22 April 2020</span>
                                                                     </div>
                                                                 </div>
-                                                                <div class="col">
-                                                                    <span class="dates">22 April 2020</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="py-2"></div>
-                                                            <div class="title-blog text-left">
-                                                                <a href="#">
-                                                                    <h4>The Benefits of Understanding Safety Data Sheets for the Industrial Hygienist</h4>
-                                                                </a>
                                                                 <div class="py-2"></div>
-                                                                <div class="lines-ngrey"></div>
+                                                                <div class="title-blog text-left">
+                                                                    <a href="#">
+                                                                        <h4>The Benefits of Understanding Safety Data Sheets for the Industrial Hygienist</h4>
+                                                                    </a>
+                                                                    <div class="py-2"></div>
+                                                                    <div class="lines-ngrey"></div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <?php } ?>
+                                                <?php } ?>
 
+                                            </div>
                                         </div>
+                                        <div class="py-3"></div>
+                                        <div class="text-center">
+                                            <a href="#" class="btn btn-md-more">Load More</a>
+                                        </div>
+                                        <div class="py-3"></div>
                                     </div>
+                                    <!-- end other -->
+                                    <div class="py-3 my-1 d-block d-sm-none"></div>
+
+                                </div>
+                                <div class="col-md-3">
+                                <div class="right-newsletter">
+                                    <h4>Newsletter</h4>
                                     <div class="py-3"></div>
-                                    <div class="text-center">
-                                        <a href="#" class="btn btn-md-more">Load More</a>
+                                    <div class="lists_dn_newsletter">
+                                        <div class="nlist">
+                                            <div class="row">
+                                                <div class="col-md-3 my-auto">
+                                                    <span class="month">MAR</span>
+                                                </div>
+                                                <div class="col-md-9">
+                                                    <div class="rights_info">
+                                                        <h5>Newsletter IIHA - Maret 2020</h5>
+                                                        <p>As an industrial hygienist, you spend a lot of your time ma...</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="nlist">
+                                            <div class="row">
+                                                <div class="col-md-3 my-auto">
+                                                    <span class="month">MAR</span>
+                                                </div>
+                                                <div class="col-md-9">
+                                                    <div class="rights_info">
+                                                        <h5>Newsletter IIHA - Maret 2020</h5>
+                                                        <p>As an industrial hygienist, you spend a lot of your time ma...</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="nlist">
+                                            <div class="row">
+                                                <div class="col-md-3 my-auto">
+                                                    <span class="month">MAR</span>
+                                                </div>
+                                                <div class="col-md-9">
+                                                    <div class="rights_info">
+                                                        <h5>Newsletter IIHA - Maret 2020</h5>
+                                                        <p>As an industrial hygienist, you spend a lot of your time ma...</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="nlist">
+                                            <div class="row">
+                                                <div class="col-md-3 my-auto">
+                                                    <span class="month">MAR</span>
+                                                </div>
+                                                <div class="col-md-9">
+                                                    <div class="rights_info">
+                                                        <h5>Newsletter IIHA - Maret 2020</h5>
+                                                        <p>As an industrial hygienist, you spend a lot of your time ma...</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
                                     </div>
-                                    <div class="py-3"></div>
-                                </div>
-                                  <!-- end other -->
+                                    <div class="text-left">
+                                        <a href="#" class="btn btn-link p-0 small_more">Load More</a>
+                                    </div>
 
-                            </div>
-                            <div class="col-md-3">
-                            <div class="right-newsletter">
-                                <h4>Newsletter</h4>
-                                <div class="py-3"></div>
-                                <div class="lists_dn_newsletter">
-                                    <div class="nlist">
-                                        <div class="row">
-                                            <div class="col-md-3 my-auto">
-                                                <span class="month">MAR</span>
-                                            </div>
-                                            <div class="col-md-9">
-                                                <div class="rights_info">
-                                                    <h5>Newsletter IIHA - Maret 2020</h5>
-                                                    <p>As an industrial hygienist, you spend a lot of your time ma...</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                    <div class="nlist">
-                                        <div class="row">
-                                            <div class="col-md-3 my-auto">
-                                                <span class="month">MAR</span>
-                                            </div>
-                                            <div class="col-md-9">
-                                                <div class="rights_info">
-                                                    <h5>Newsletter IIHA - Maret 2020</h5>
-                                                    <p>As an industrial hygienist, you spend a lot of your time ma...</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                    <div class="nlist">
-                                        <div class="row">
-                                            <div class="col-md-3 my-auto">
-                                                <span class="month">MAR</span>
-                                            </div>
-                                            <div class="col-md-9">
-                                                <div class="rights_info">
-                                                    <h5>Newsletter IIHA - Maret 2020</h5>
-                                                    <p>As an industrial hygienist, you spend a lot of your time ma...</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                    <div class="nlist">
-                                        <div class="row">
-                                            <div class="col-md-3 my-auto">
-                                                <span class="month">MAR</span>
-                                            </div>
-                                            <div class="col-md-9">
-                                                <div class="rights_info">
-                                                    <h5>Newsletter IIHA - Maret 2020</h5>
-                                                    <p>As an industrial hygienist, you spend a lot of your time ma...</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
                                 </div>
-                                <div class="text-left">
-                                    <a href="#" class="btn btn-link p-0 small_more">Load More</a>
                                 </div>
-
-                            </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="clear clearfix"></div>
-				</div>
+                        <div class="clear clearfix"></div>
+    				</div>
 
-			<div class="clear"></div>
-		</div>
-	</div>
-</section>
+    			<div class="clear"></div>
+    		</div>
+    	</div>
+    </section>
 	<!-- end blog	 -->
 	
 
