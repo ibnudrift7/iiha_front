@@ -49,9 +49,11 @@
 										    	<a class="float-right forgot" href="#">forgot password?</a>
 										    	<label>Password</label>
 										        <input class="form-control" type="password" required="required">
+										        <?php if (isset($_GET['error']) && $_GET['error']): ?>
 										        <div class="alert alert-danger mt-2" role="alert">
 												  <small>Password or Username is incorrect</small>
 												</div>
+										        <?php endif ?>
 										    </div> <!-- form-group// --> 
 										    <div class="form-group mb-0">
 										        <button type="submit" class="btn btn-primary btn-block"> Login  </button>
@@ -62,7 +64,11 @@
 							</div>
 							<div class="clear clearfix"></div>
 
+							<?php if (!isset($_GET['error'])): ?>
+							<div class="lines-grey-login my-3 mb-4">
+							<?php else: ?>
 							<div class="lines-grey-login my-2">
+							<?php endif ?>
 								<div class="n-lines"></div>								
 								<div class="middles-text">
 									<span>Or</span>
@@ -72,7 +78,11 @@
 							<div class="text-center texts-link-member">
 								<a href="#" class="btn btn-link to_member">Become a Member</a>
 							</div>
-							<!-- <div class="py-5"></div> -->
+
+							<?php if (!isset($_GET['error'])): ?>
+							<div class="py-2"></div>
+							<?php endif ?>
+
 							<div class="text-center texts-bottoms">
 								<p>&copy; 2020 IHHA. All rights reserved. <br>
 									By signing up, I agree to our <a href="#">Term of Service</a></p>
