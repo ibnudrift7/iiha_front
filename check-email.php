@@ -42,7 +42,7 @@
 									<article class="card-body">
 										<form method="post" action="#">
 										    <div class="form-group">
-										        <a href="btn btn-primary btn-block">Back to Login</a>
+										        <a href="btn btn-primary btn-block to_login">Back to Login</a>
 										    </div> <!-- form-group// -->                                    
 										</form>
 									</article>

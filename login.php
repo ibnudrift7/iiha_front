@@ -53,7 +53,7 @@
 												  <small>Password or Username is incorrect</small>
 												</div>
 										    </div> <!-- form-group// --> 
-										    <div class="form-group">
+										    <div class="form-group mb-0">
 										        <button type="submit" class="btn btn-primary btn-block"> Login  </button>
 										    </div> <!-- form-group// -->                                                           
 										</form>
@@ -62,7 +62,7 @@
 							</div>
 							<div class="clear clearfix"></div>
 
-							<div class="lines-grey-login my-3">
+							<div class="lines-grey-login my-2">
 								<div class="n-lines"></div>								
 								<div class="middles-text">
 									<span>Or</span>
